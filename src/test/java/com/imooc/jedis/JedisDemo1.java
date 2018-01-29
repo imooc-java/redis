@@ -1,4 +1,4 @@
-package com.imooc.jdeis;
+package com.imooc.jedis;
 
 import org.junit.Before;
 import org.junit.Test;
