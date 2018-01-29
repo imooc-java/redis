@@ -1,10 +1,3 @@
-# 04-Jedis的入门.md
-
-## 使用 Jedis 连接 Redis 服务
-
-[JedisDemo1.java](../src/test/java/com/imooc/jdeis/JedisDemo1.java)
-
-```java
 package com.imooc.jdeis;
 
 import org.junit.Before;
@@ -66,12 +59,4 @@ public class JedisDemo1 {
     }
 
 }
-```
 
-## 运行结果
-
-```
-OK
-imooc
-1
-```
