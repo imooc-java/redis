@@ -78,8 +78,7 @@ CorningSunMac:redis corning$ ps -ef | grep -i redis
 
 * 停止
 
- * `kill -9 11977` (不建议)
- * `redis-cli shutdown`
+`kill -9 11977 #(不建议)` 或 `redis-cli shutdown`
 
 * 连接
 
