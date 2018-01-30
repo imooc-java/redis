@@ -14,7 +14,7 @@
 
 ## 配置
 
-### Mac 下配置
+### Mac 下默认配置
 
 * 查看配置文件
 
@@ -43,9 +43,9 @@
 215 #
 216 #   save ""
 217
-218 save 900 1
-219 save 300 10
-220 save 60 10000
+218 save 900 1 # 每900秒有至少1个文件发生变化时，执行保存
+219 save 300 10 # 每300秒有至少10个文件发生变化时，执行保存
+220 save 60 10000 # 每60秒有至少10000个文件发生变化时，执行保存
 221
 222 # By default Redis will stop accepting writes if RDB snapshots are enabled
 223 # (at least one save point) and the latest background save failed.
@@ -78,7 +78,7 @@
 250 rdbchecksum yes
 251
 252 # The filename where to dump the DB
-253 dbfilename dump.rdb
+253 dbfilename dump.rdb # 持久化保存的文件名称
 254
 255 # The working directory.
 256 #
@@ -88,7 +88,7 @@
 260 # The Append Only File will also be created inside this directory.
 261 #
 262 # Note that you must specify a directory here, not a file name.
-263 dir /usr/local/var/db/redis/
+263 dir /usr/local/var/db/redis/ # 持久化保存的文件目录
 ```
 
 * 查看保存的rdb文件
