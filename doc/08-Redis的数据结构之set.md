@@ -3,7 +3,7 @@
 ## 存储Set
 
 * 和List类型不同的是，*Set集合中不允许出现重复的元素*
-* Set可包含的最大元素数量是 429467295 ($2^32 - 1$)
+* Set可包含的最大元素数量是 429467295 (<a href="https://www.codecogs.com/eqnedit.php?latex=2^{32}-1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?2^{32}-1" title="2^{32}-1" /></a>)
 
 ## 存储Set常用命令
 
