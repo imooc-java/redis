@@ -13,7 +13,7 @@
 
 ## 主流NoSQL产品
 
-![](https://ws3.sinaimg.cn/large/006tNc79ly1fnxbehgmf4j30zq0fy0xh.jpg)
+![](./img/主流NoSQL产品.jpg)
 
 * [CouchDB](http://couchdb.apache.org/)
 * [Redis](https://redis.io/)

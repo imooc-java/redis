@@ -229,7 +229,7 @@ OK
 
 ## rpoplpush 使用场景
 
-![](https://ws3.sinaimg.cn/large/006tNc79ly1fnye9zg17dj314w0jy40p.jpg)
+![](./img/rpoplpush使用场景.jpg)
 
 ## 其它
 
