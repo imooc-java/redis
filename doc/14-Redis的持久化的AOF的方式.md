@@ -71,9 +71,13 @@
 698 #
 699 # If unsure, use "everysec".
 700
-701 # appendfsync always # 将 aof_buf 缓冲区中的所有内容写入并同步到 AOF 文件。
-702 appendfsync everysec # 将 aof_buf 缓冲区中的所有内容写入到 AOF 文件， 如果上次同步 AOF 文件的时间距离现在超过一秒钟， 那么再次对 AOF 文件进行同步， 并且这个同步操作是由一个线程专门负责执行的。
-703 # appendfsync no # 将 aof_buf 缓冲区中的所有内容写入到 AOF 文件， 但并不对 AOF 文件进行同步， 何时同步由操作系统来决定。
+# 将 aof_buf 缓冲区中的所有内容写入并同步到 AOF 文件。
+701 # appendfsync always
+# 将 aof_buf 缓冲区中的所有内容写入到 AOF 文件， 如果上次同步 AOF 文件的时间距离现在超过一秒钟，
+# 那么再次对 AOF 文件进行同步，并且这个同步操作是由一个线程专门负责执行的。
+702 appendfsync everysec
+# 将 aof_buf 缓冲区中的所有内容写入到 AOF 文件， 但并不对 AOF 文件进行同步， 何时同步由操作系统来决定。
+703 # appendfsync no
 704
 ```
 
