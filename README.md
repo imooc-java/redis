@@ -6,7 +6,6 @@
 
 ![慕_神](https://img4.mukewang.com/55dbe4f1000115e705680568-160-160.jpg)
 
-
 # 章节目录和总结文档
 
 ## 第1章 课程介绍
@@ -35,3 +34,10 @@
 * [9-3 14-Redis的持久化的AOF的方式 (09:41)](./doc/14-Redis的持久化的AOF的方式.md)
 ## 第10章 课程总结
 * [10-1 15-Redis的课程总结 (01:27)](./doc/15-Redis的课程总结.md)
+
+# Redis 命令参考
+
+http://redisdoc.com/
+
+> 本文档是 [Redis Command Reference](http://redis.io/commands) 和 [Redis Documentation](http://redis.io/documentation) 的中文翻译版， 阅读这个文档可以帮助你了解 Redis 命令的具体使用方法， 并学会如何使用 Redis 的事务、持久化、复制、Sentinel、集群等功能。
+
