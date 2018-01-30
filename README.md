@@ -24,7 +24,7 @@
 * [6-2 06-Redis的数据结构之哈希 (08:16)](./doc/06-Redis的数据结构之哈希.md)
 * [6-3 07-Redis的数据结构之list (20:01)](./doc/07-Redis的数据结构之list.md)
 * [6-4 08-Redis的数据结构之set (12:38)](./doc/08-Redis的数据结构之set.md)
-* [6-5 09-Redis的数据结构之sorted-set (13:00)](./doc/09-Redis的数据结构之sorte.md)
+* [6-5 09-Redis的数据结构之sorted-set (13:00)](./doc/09-Redis的数据结构之sorted-set.md)
 ## 第7章 Redis的通用命令
 * [7-1 10-Redis的Keys的通用操作 (04:28)](./doc/10-Redis的Keys的通用操作.md)
 ## 第8章 Redis的事务
