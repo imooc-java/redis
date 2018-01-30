@@ -16,7 +16,7 @@
 
 ## 示例
 
-```
+```python
 # sadd 新建key并添加值
 127.0.0.1:6379> sadd myset a b c
 (integer) 3

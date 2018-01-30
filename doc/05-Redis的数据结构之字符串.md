@@ -29,7 +29,7 @@
 
 ## 示例
 
-```
+```python
 # set 设置值
 127.0.0.1:6379> set company imooc
 OK

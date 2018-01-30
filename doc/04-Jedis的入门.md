@@ -70,7 +70,7 @@ public class JedisDemo1 {
 
 ## 运行结果
 
-```
+```java
 OK
 imooc
 1

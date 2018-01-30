@@ -17,7 +17,7 @@
 
 ## 示例
 
-```
+```python
 # lpush 左边插入
 127.0.0.1:6379> lpush mylist a b c
 (integer) 3

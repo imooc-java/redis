@@ -14,7 +14,7 @@
 
 ## 示例
 
-```
+```python
 # hset 设置值
 127.0.0.1:6379> hset myhash username jack
 (integer) 1

@@ -10,7 +10,7 @@
 
 1. `brew install redis`
 
-```
+```python
 CorningSunMac:~ corning$ brew install redis
 Updating Homebrew...
 ==> Auto-updated Homebrew!
@@ -32,7 +32,7 @@ Or, if you don't want/need a background service you can just run:
 
 2. `redis-server /usr/local/etc/redis.conf`
 
-```
+```python
 CorningSunMac:~ corning$ redis-server /usr/local/etc/redis.conf
 11977:C 29 Jan 10:29:12.960 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
 11977:C 29 Jan 10:29:12.960 # Redis version=4.0.7, bits=64, commit=00000000, modified=0, pid=11977, just started
@@ -70,7 +70,7 @@ CorningSunMac:~ corning$ redis-server /usr/local/etc/redis.conf
 
 `ps -ef | grep -i redis`
 
-```
+```python
 CorningSunMac:redis corning$ ps -ef | grep -i redis
   501 11977 10272   0 10:29上午 ttys000    0:14.09 redis-server 127.0.0.1:6379
   501 15286 12141   0  3:10下午 ttys002    0:00.00 grep -i redis
@@ -84,14 +84,14 @@ CorningSunMac:redis corning$ ps -ef | grep -i redis
 
 `redis-cli`
 
-```
+```python
 CorningSunMac:~ corning$ redis-cli
 127.0.0.1:6379>
 ```
 
 * 使用 get set del
 
-```
+```python
 127.0.0.1:6379> set name imooc
 OK
 127.0.0.1:6379> get name
